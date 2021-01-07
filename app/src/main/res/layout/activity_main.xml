@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Pick contact"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/btn"
+        android:id="@+id/name"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:hint="Name"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:layout_below="@+id/name"
+        android:id="@+id/number"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:hint="Number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:layout_below="@+id/number"
+        android:id="@+id/message"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:hint="Message"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Send"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/message"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>
